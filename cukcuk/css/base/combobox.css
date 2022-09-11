@@ -1,0 +1,11 @@
+.combobox{
+    height: 32px;
+}
+.combobox select{
+    padding: 0 16px;
+    height: 100%;
+    outline: none;
+}
+.combobox option{
+    height: 32px;
+}

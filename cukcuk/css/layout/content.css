@@ -1,0 +1,167 @@
+.content{
+    flex: 1;
+    height: 100%;
+    padding: 8px;
+}
+.header-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-table .header-table__label{
+
+}
+
+.header-table .header-table__btn{
+
+}
+.action-table{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+}
+.filter__input{
+    margin: 0 8px;
+}
+.filter__input input{
+}
+
+.filter__department{
+    margin: 0 8px;
+}
+
+.filter__position{
+
+}
+.action-table .refesh{
+}
+.action-table .refesh i{
+    padding: 6px 0 0 0;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    text-align: center;
+}
+.table-wrap{
+    min-height: 600px;
+}
+.employee-id{
+
+}
+
+.employee-name{
+    width: 100px;
+    text-align: left;
+}
+
+.employee-gender{
+
+}
+
+.employee-dateOfBirth{
+    width: 100px;
+    text-align: center;
+}
+
+.employee-phone{
+
+}
+
+.employee-email{
+    width: 100px;
+    text-align: left;
+}
+
+.employee-position{
+    width: 100px;
+    text-align: left;
+}
+
+.employee-departnemt{
+    width: 100px;
+    text-align: left;
+}
+
+.employee-salary{
+    width: 120px;
+    text-align: right;
+}
+
+.employee-workStatus{
+    width: 120px;
+    text-align: left;
+}
+.detail-form {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.form-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.form__header{
+    padding-left: 16px;
+}
+.form-btn-close{
+    position: absolute;
+    top: 5px;
+    right: 5px;padding: 5px;
+}
+.form-btn-close:hover{
+    background-color: #fdd1d1;
+    color: black;
+}
+.form-btn-close i{
+    font-size: 24px;
+}
+.form__header{
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+.employee-info__img{
+    width: 150px;
+    height: 150px;
+    margin: 0 32px;
+}
+.employee-info__img img{
+    border-radius: 50%;
+    border: 2px solid #bbbbbb;
+}
+.employee-info{
+    flex: 1;
+}
+.employee-info .line{
+    width: 80px;
+    height: 6px;
+    background-color: #019960;
+    margin: 4px 0;
+}
+.general-info{
+    margin: 16px 0;
+}
+.form-footer{
+    position: relative;
+    background-color: #e9ebec;
+    height: 56px;
+}
+.form-footer .action{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 56px;
+}
+.toast-box{
+    display: none;
+}

@@ -1,0 +1,68 @@
+@import url("./base/button.css");
+@import url("./base/input.css");
+@import url("./base/row.css");
+@import url("./base/dialog.css");
+@import url("./base/modal.css");
+@import url("./base/table.css");
+@import url("./base/img.css");
+@import url("./base/combobox.css");
+@import url("./base/toast.css");
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+@import url("./layout/sibar.css");
+@import url("./layout/content.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+body{
+    font-family: GoogleSans Regular;
+    font-size: 13px;
+    margin: 0;
+    box-sizing: border-box;
+}
+label{
+    display: block;
+}
+button, input {
+    outline: none;
+}
+input{
+    width: 90%;
+}
+@font-face {
+    font-family: GoogleSans Regular;
+    src: url("../assets/font/GoogleSans-Regular.otf");
+}
+@font-face {
+    font-family: GoogleSans Bold;
+    src: url("../assets/font/GoogleSans-Bold.otf");
+}
+@font-face {
+    font-family: GoogleSans Italic;
+    src: url("../assets/font/GoogleSans-Italic.otf");
+}
+.row{
+    width: 100%;
+    margin-top: 4px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+}
+.red{
+    color: red;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+
+

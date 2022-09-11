@@ -1,0 +1,37 @@
+.btn{
+    height: 40px;
+    min-width: 100px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 0 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn--default{
+    background-color: #e9ebec;
+    color: #000000;
+}
+/* .btn--default:hover{
+    background-color: #999999;
+} */
+.btn--primary{
+    background-color: #019160;
+}
+.btn--primary:hover{
+    background-color: #2fbe8e;
+}
+.btn--primary:active{
+    background-color: #01b075;
+}
+.btn-icon{
+    background-image: url("");
+    padding: 0 16px 0 40px;
+    background-position: 16px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.btn-icon-add{
+    background-image: url("../../assets/icon/add.png");
+}

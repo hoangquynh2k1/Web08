@@ -1,0 +1,20 @@
+.input{
+    padding-left: 16px;
+    height: 32px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+.input:focus{
+    border: 2px solid #019160;
+}
+.input-icon{
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 16px;
+    padding-left: 36px;
+}
+.input-icon-search{
+    background-image: url(../../assets/icon/search.png);
+}

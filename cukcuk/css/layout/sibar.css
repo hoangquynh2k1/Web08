@@ -1,0 +1,43 @@
+.sibar{
+    width: 200px;
+    height: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.sibar .menu{
+    
+}
+.sibar .menu .menu-item{
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.sibar .menu .menu-item:hover {
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.sibar .menu .menu-item:hover .menu-item__name{
+    font-weight: 600;
+}
+
+.item--focus{
+    background-color: #019160;
+    color: #fff;
+}
+.sibar .menu .menu-item .menu-item__icon{
+    width: 24px;
+    height: 24px;
+    padding: 2px 16px;
+    line-height: 24px;
+}
+.sibar .menu .menu-item .menu-item__icon i{
+    font-size: 20px;
+}
+.sibar .menu .menu-item .menu-item__name{
+    margin-left: 8px;
+}
+.sibar .menu .menu-item .menu-item__name span{
+
+}
